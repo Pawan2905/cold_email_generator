@@ -37,6 +37,7 @@ Once the app is running, open http://localhost:8501 in your browser.
 3. View Generated Email: The application will display a tailored email for the specified job posting. You can copy it directly or customize it further
 
 ## 📂 Project Structure
+```plaintext
 cold-email-generator/
 │
 ├── chains.py                # Contains the Chain class for job extraction and email generation.
@@ -46,7 +47,7 @@ cold-email-generator/
 ├── .env                     # Environment variables (GROQ_API_KEY).
 ├── requirements.txt         # Python package dependencies.
 └── README.md                # Project documentation.
-
+```
 ## 🐛 Troubleshooting
 Invalid API Key: Ensure the GROQ_API_KEY in your .env file is correctly formatted. Try using the API key directly in chains.py if issues persist.
 Environment Variable Not Loaded: Make sure .env is in the project root. Alternatively, specify the full path to .env in load_dotenv().
